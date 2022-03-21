@@ -1,5 +1,5 @@
 {
-    "name": "horde/text-diff",
+    "name": "egroupware/text-diff",
     "description": "Text diff generation and rendering library",
     "type": "library",
     "homepage": "https://www.horde.org/libraries/Horde_Text_Diff",
@@ -16,16 +16,10 @@
             "role": "lead"
         }
     ],
-    "version": "2.2.1",
+    "version": "2.3.0",
     "time": "2017-11-11",
-    "repositories": [
-        {
-            "type": "pear",
-            "url": "https://pear.horde.org"
-        }
-    ],
     "require": {
-        "php": "^5.3 || ^7",
+        "php": "^7 || ^8",
         "pear-pear.horde.org/Horde_Exception": "^2",
         "pear-pear.horde.org/Horde_Util": "^2"
     },
@@ -36,6 +30,7 @@
     },
     "replace": {
         "pear-pear.horde.org/Horde_Text_Diff": "2.*",
+        "pear-pear.horde.org/horde_text_diff": "2.*",
         "pear-horde/Horde_Text_Diff": "2.*"
     },
     "autoload": {
